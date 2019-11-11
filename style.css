@@ -1,0 +1,56 @@
+header{
+    margin: 0 50%;
+}
+#layout{
+    background-color:lightblue;
+    display: grid;
+    width: 35%;
+    min-height: 500px;
+    margin: auto 35%;
+    border: 1px solid black;
+    grid-template-rows: 1fr 6fr;
+    border-radius: 10%;
+
+
+}
+.numberlayout{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);;
+    margin: 30px;
+    margin-left: 12px;
+    gap:10px 15px;
+}
+.operatorslayout{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px 10px;
+    gap: 10px 15px;
+}
+.buttonslayout{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+}
+.results{
+    border: 2px solid black;
+    margin: 12px 20px;
+    background-color: white;
+    text-align: end;
+    font-size: 40px;
+    overflow: scroll;
+}
+button{
+    border-radius: 5%;
+}
+.operators{
+    background-color: greenyellow;
+    font-size: 15px;
+}
+.clear{
+    background-color: red;
+    font-size: 20px;
+}
+.evaluate{
+    background-color: blueviolet;
+    font-size: 20px;
+    font: bold;
+}
